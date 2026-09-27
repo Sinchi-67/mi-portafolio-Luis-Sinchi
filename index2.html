@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Portafolio Web</title>
+    <!--para los iconos de redes sociales-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="estilos2.css" />
+  </head>
+  <body>
+    <header>
+      <div class="contenedor">
+        <div class="perfil">
+          <div class="contenedorFoto">
+            <img src="foto.jpg" alt="" class="foto" />
+          </div>
+          <div class="infor">
+            <h1>Luis Sinchi</h1>
+            <p>Estudiante en ingeniería en sistemas</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="sobre-mi">
+      <div class="contenedor">
+        <h2>Sobre Mí</h2>
+        <p>
+          Hola, me llamo Luis Alberto Sinchi Meza soy estudiante del primer
+          ciclo en ingeniería en sistemas en la universidad continental de
+          Huancayo y espero poder terminar la carrera sin dificuktades para ser
+          un gran ingeniero.
+        </p>
+        <p>
+          Cuando no estoy programando, me gusta jugar videojuegos, ir al
+          gimnasio, salir a caminar por la ciudad y convivir con amigos
+        </p>
+      </div>
+    </section>
+
+    <section id="proyectos">
+      <div class="contenedor">
+        <h2>Mis Proyectos</h2>
+        <div class="proyectos-container">
+          <div class="proyecto">
+            <h3>App</h3>
+            <p>
+              Una app en appinventor para saber tu promedio en un curso y saber
+              si pasas el curso o no.
+            </p>
+          </div>
+
+          <div class="proyecto">
+            <h3>Temp Tracker</h3>
+            <p>Página web hecha en html para poder saber el clima</p>
+          </div>
+
+          <div class="proyecto">
+            <h3>Fraseo</h3>
+            <p>App en appinventor que funciona como traductor</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades">
+      <div class="contenedor">
+        <h2>Habilidades</h2>
+        <div class="habilidades-lista">
+          <div class="habilidad">python</div>
+          <div class="habilidad">HTML</div>
+          <div class="habilidad">CSS</div>
+          <div class="habilidad">JavaScript</div>
+
+          <div class="habilidad">GitHub</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <div class="contenedor">
+        <h2>Contacto</h2>
+        <form>
+          <div class="form-group">
+            <input type="text" placeholder="Nombre" required />
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Email" required />
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Mensaje" rows="5" required></textarea>
+          </div>
+          <button onclick="pop_up('Mensaje enviado correctamante')">
+            Enviar Mensaje
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="contenedor">
+        <div class="enlaces">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+        </div>
+        <p>
+          &copy; 2026 Desarrollado por Luis Sinchi - Todos los derechos
+          reservados
+        </p>
+      </div>
+    </footer>
+    <script src="./codigo2.js"></script>
+  </body>
+</html>
